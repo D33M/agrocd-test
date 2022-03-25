@@ -11,4 +11,5 @@ service:
   type: ClusterIP
 
 extraEnvVars:
-  TEST_VAR: test
+  - name: TEST_VAR
+    value: test
